@@ -14,7 +14,7 @@ function deepestChild(){
     for (let i = 0; i < DeepList.length; i++){
       current = DeepList[i]
     }
-  return next
+  return current
 }
 
 function increaseRankBy(n){
