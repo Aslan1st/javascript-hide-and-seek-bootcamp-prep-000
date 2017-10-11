@@ -12,13 +12,10 @@ function deepestChild(){
   var current = DeepList
   var next = current
 
-  while(current){
     for (let i = 0; i < DeepList.length; i++){
       next = DeepList[i]
     }
-  current = next
-}
-return current
+  return next
 }
 
 function increaseRankBy(n){
