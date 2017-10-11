@@ -10,10 +10,9 @@ function deepestChild(){
   const DeepList = document.querySelectorAll('#grand-node div')
 
   var current = DeepList
-  var next = current
 
     for (let i = 0; i < DeepList.length; i++){
-      next = DeepList[i]
+      current = DeepList[i]
     }
   return next
 }
